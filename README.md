@@ -1,0 +1,1 @@
+# mineires-translator-app
