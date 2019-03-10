@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TranslatedText component Snapshot when has no text 1`] = `
+<div
+  className="translated-text"
+>
+  <span
+    className="translated-text__span"
+  >
+    Texto em Mineirês
+  </span>
+  <TranslatedLines
+    lines={
+      Array [
+        "",
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`TranslatedText component Snapshot when has text 1`] = `
+<div
+  className="translated-text"
+>
+  <span
+    className="translated-text__span"
+  >
+    Texto em Mineirês
+  </span>
+  <TranslatedLines
+    lines={
+      Array [
+        "some text",
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`TranslatedText component Snapshot when has two text 1`] = `
+<div
+  className="translated-text"
+>
+  <span
+    className="translated-text__span"
+  >
+    Texto em Mineirês
+  </span>
+  <TranslatedLines
+    lines={
+      Array [
+        "some text",
+        "another text",
+      ]
+    }
+  />
+</div>
+`;

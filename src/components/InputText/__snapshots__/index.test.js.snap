@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputText component Snapshot when has no text 1`] = `
+<div
+  className="input-text"
+>
+  <span
+    className="input-text__span"
+  >
+    Texto em Português
+  </span>
+  <textarea
+    className="input-text__textarea"
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`InputText component Snapshot when has text 1`] = `
+<div
+  className="input-text"
+>
+  <span
+    className="input-text__span"
+  >
+    Texto em Português
+  </span>
+  <textarea
+    className="input-text__textarea"
+    onChange={[Function]}
+    value="some text"
+  />
+</div>
+`;

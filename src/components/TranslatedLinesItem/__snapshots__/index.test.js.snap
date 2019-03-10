@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TranslatedLinesItem component Snapshot when has no text 1`] = `
+<p
+  className="translated-lines-item"
+/>
+`;
+
+exports[`TranslatedLinesItem component Snapshot when has text 1`] = `
+<p
+  className="translated-lines-item"
+>
+  Some text
+</p>
+`;

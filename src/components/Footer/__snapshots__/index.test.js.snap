@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component matches snapshot 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="footer__line"
+  />
+  <p>
+    Made with 
+    <span
+      className="footer--red"
+    >
+      ❤︎
+    </span>
+     by 
+    <a
+      href="https://twitter.com/FelipeNolleto"
+    >
+      nolleto
+    </a>
+    . Find this on 
+    <a
+      href="https://github.com/nolleto/mineires-translator-app"
+    >
+      github
+    </a>
+  </p>
+</footer>
+`;

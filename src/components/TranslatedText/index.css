@@ -1,0 +1,12 @@
+.translated-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: start;
+  margin: 40px 10px 10px 10px;
+}
+
+.translated-text__span {
+  font-size: 18px;
+  font-weight: bold;
+}

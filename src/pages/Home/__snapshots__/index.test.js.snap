@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page matches snapshot 1`] = `
+<div
+  className="home"
+>
+  <Header />
+  <div
+    className="home__content"
+  >
+    <InputText
+      setText={[Function]}
+      text="Quanto está o litro de leite?
+Que horas são?"
+    />
+    <TranslatedText
+      text="Quanto está o litro de leite?
+Que horas são?"
+    />
+  </div>
+  <Footer />
+</div>
+`;

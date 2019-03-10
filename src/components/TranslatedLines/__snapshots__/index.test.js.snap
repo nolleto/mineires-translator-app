@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TranslatedLines component Snapshot when has lines 1`] = `
+<div
+  className="translated-lines"
+>
+  <TranslatedLinesItem
+    key="line 1"
+    text="line 1"
+  />
+  <TranslatedLinesItem
+    key="line 2"
+    text="line 2"
+  />
+</div>
+`;
+
+exports[`TranslatedLines component Snapshot when has lines and empty lines 1`] = `
+<div
+  className="translated-lines"
+>
+  <TranslatedLinesItem
+    key="line 1"
+    text="line 1"
+  />
+  <TranslatedLinesItem
+    key="line 2"
+    text="line 2"
+  />
+  <TranslatedLinesItem
+    key="lines 3"
+    text="lines 3"
+  />
+</div>
+`;
+
+exports[`TranslatedLines component Snapshot when has no lines 1`] = `
+<div
+  className="translated-lines"
+/>
+`;
