@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Build Status](https://travis-ci.org/nolleto/mineires-translator-app.svg?branch=master)](https://travis-ci.org/nolleto/mineires-translator-app)
+
+# Mineirês Translator
+
+A translator from portuguese language (Brazil) to _mineirês_.
 
 ## Available Scripts
 
