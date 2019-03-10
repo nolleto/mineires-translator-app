@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-  - "stable"
+  - "10.10.0"
 cache:
+  yarn: true
   directories:
     - node_modules
 script:
-  - npm run test
-  - npm run build
+  - yarn run test
+  - yarn run build
