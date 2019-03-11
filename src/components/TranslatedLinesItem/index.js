@@ -3,7 +3,7 @@ import './index.css';
 import PropTypes from 'prop-types';
 import React from 'react';
 import capitalize from 'capitalize';
-import toMineires from '../../mineires';
+import toMineires from '../../mineires/translator';
 
 const TranslatedLinesItem = ({ text }) => (
   <p className='translated-lines-item'>

@@ -1,10 +1,12 @@
 import ACCENTS from './constants/accents.json';
 
-const addParentheses = str => `(${str})`;
+const BEGIN_PHRASE = '(^| )'
+const END_PHRASE = '( |\\.|,|!|\\?|$)'
+
 const stringToRegex = str => new RegExp(str, 'ig');
-const createPhraseRegex = phrase => stringToRegex(addParentheses(replaceAccentsInString(phrase)));
-const createWordRegex = word => stringToRegex(replaceAccentsInString(`(^| )(${word})( |.|,|$)`));
-const createSuffixRegex = word => stringToRegex(`([a-z]+)(${replaceAccentsInString(word)})`);
+const createPhraseRegex = phrase => stringToRegex(replaceAccentsInString(`${BEGIN_PHRASE}(${phrase})${END_PHRASE}`));
+const createWordRegex = word => stringToRegex(replaceAccentsInString(`${BEGIN_PHRASE}(${word})${END_PHRASE}`));
+const createSuffixRegex = word => stringToRegex(`([a-z]+)(${replaceAccentsInString(word)})${END_PHRASE}`);
 
 const replaceAccentsInString = str => {
   return Object.keys(ACCENTS).reduce((acc, letter) => {
@@ -24,7 +26,7 @@ export const creatorPhraseReplaces = json => text => {
     return targetPhrases.reduce((acc, targetPhrase) => {
       const regex = createPhraseRegex(targetPhrase);
 
-      return acc.replace(regex, newPhrase);
+      return acc.replace(regex, `$1${newPhrase}$3`);
     }, textToReplace);
   }, text);
 };
@@ -50,7 +52,7 @@ export const creatorSuffixReplaces = json => text => {
     return targetWords.reduce((acc, targetWord) => {
       const regex = createSuffixRegex(targetWord);
 
-      return acc.replace(regex, `$1${newWord}`);
+      return acc.replace(regex, `$1${newWord}$3`);
     }, textToReplace);
   }, text);
 };

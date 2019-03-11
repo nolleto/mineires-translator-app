@@ -10,6 +10,6 @@ exports[`TranslatedLinesItem component Snapshot when has text 1`] = `
 <p
   className="translated-lines-item"
 >
-  Some text
+  some text
 </p>
 `;
