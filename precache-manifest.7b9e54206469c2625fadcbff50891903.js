@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/mineires-translator-app/static/js/runtime~main.b52e451a.js"
   },
   {
-    "revision": "f63ed162f6dbb3523dc3",
-    "url": "/mineires-translator-app/static/js/main.f63ed162.chunk.js"
+    "revision": "1e8ecc2a81fa326e0f1b",
+    "url": "/mineires-translator-app/static/js/main.1e8ecc2a.chunk.js"
   },
   {
     "revision": "c79f88fbdeaeda20e3f6",
     "url": "/mineires-translator-app/static/js/2.c79f88fb.chunk.js"
   },
   {
-    "revision": "f63ed162f6dbb3523dc3",
+    "revision": "1e8ecc2a81fa326e0f1b",
     "url": "/mineires-translator-app/static/css/main.f89f7180.chunk.css"
   },
   {
-    "revision": "c23b90438933ccacea1979553308c5cc",
+    "revision": "f5f3dd49838435cf816628887f79ee72",
     "url": "/mineires-translator-app/index.html"
   }
 ];

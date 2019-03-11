@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mineires-translator-app/precache-manifest.acc8f334d0425f026331d2d39bb47c2f.js"
+  "/mineires-translator-app/precache-manifest.7b9e54206469c2625fadcbff50891903.js"
 );
 
 workbox.clientsClaim();
