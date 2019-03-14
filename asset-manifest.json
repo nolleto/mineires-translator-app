@@ -1,13 +1,13 @@
 {
-  "main.css": "/mineires-translator-app/static/css/main.f89f7180.chunk.css",
-  "main.js": "/mineires-translator-app/static/js/main.1e8ecc2a.chunk.js",
-  "main.js.map": "/mineires-translator-app/static/js/main.1e8ecc2a.chunk.js.map",
+  "main.css": "/mineires-translator-app/static/css/main.6a8b7963.chunk.css",
+  "main.js": "/mineires-translator-app/static/js/main.d41f8037.chunk.js",
+  "main.js.map": "/mineires-translator-app/static/js/main.d41f8037.chunk.js.map",
   "runtime~main.js": "/mineires-translator-app/static/js/runtime~main.b52e451a.js",
   "runtime~main.js.map": "/mineires-translator-app/static/js/runtime~main.b52e451a.js.map",
-  "static/js/2.c79f88fb.chunk.js": "/mineires-translator-app/static/js/2.c79f88fb.chunk.js",
-  "static/js/2.c79f88fb.chunk.js.map": "/mineires-translator-app/static/js/2.c79f88fb.chunk.js.map",
+  "static/js/2.3d7f6fe8.chunk.js": "/mineires-translator-app/static/js/2.3d7f6fe8.chunk.js",
+  "static/js/2.3d7f6fe8.chunk.js.map": "/mineires-translator-app/static/js/2.3d7f6fe8.chunk.js.map",
   "index.html": "/mineires-translator-app/index.html",
-  "precache-manifest.7b9e54206469c2625fadcbff50891903.js": "/mineires-translator-app/precache-manifest.7b9e54206469c2625fadcbff50891903.js",
+  "precache-manifest.9b21c45495e9a2f05212de7b3fd359ea.js": "/mineires-translator-app/precache-manifest.9b21c45495e9a2f05212de7b3fd359ea.js",
   "service-worker.js": "/mineires-translator-app/service-worker.js",
-  "static/css/main.f89f7180.chunk.css.map": "/mineires-translator-app/static/css/main.f89f7180.chunk.css.map"
+  "static/css/main.6a8b7963.chunk.css.map": "/mineires-translator-app/static/css/main.6a8b7963.chunk.css.map"
 }
